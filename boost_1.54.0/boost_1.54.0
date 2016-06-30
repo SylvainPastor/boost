@@ -1,0 +1,7 @@
+## Boost configuration file
+
+BOOST_VERSION=1.54.0
+BOOST_URI=http://sourceforge.net/projects/boost/files/boost/$BOOST_VERSION/boost_1_54_0.tar.bz2/download
+BOOST_TARBALL=boost_1_54_0.tar.bz2
+BOOST_LIBS=--with-chrono --with-date_time --with-filesystem --with-locale --with-program_options --with-serialization --with-system --with-thread --with-regex --with-test
+INSTALL_DIR=$HOME/work/3rdParties/$PLATFORM/usr
